@@ -3,7 +3,7 @@ Format Definition
 
 Question
 ----
-```jsonc
+```json
 {
     "type": <"choice" or "sort">,
     "question": <arbitrary string>,
