@@ -13,4 +13,4 @@ Basically, it complies with [NIP-04](https://github.com/nostr-protocol/nips/blob
     ]
 }
 ```
-- "content" stores the encrypted version of [Question](format.md#question)
+- `content` stores the encrypted version of [Question](format.md#question)

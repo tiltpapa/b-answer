@@ -23,6 +23,6 @@ Question
     "required": <integer: 1 <= n => "total">
 }
 ```
-- "answer" means correct answer number
-- "total" means numbers of choices
-- "required" means numbers of choices that must be selected
+- `answer` means correct answer number
+- `total` means numbers of choices
+- `required` means numbers of choices that must be selected
