@@ -16,6 +16,21 @@ Basically, it complies with [NIP-04](https://github.com/nostr-protocol/nips/blob
 - `content` stores the encrypted version of [Question](format.md#question)
 
 
+Game Master Profile
+----
+This system treats `pubkey` as a game.
+
+```json
+{
+    "kind": 0,
+    "tags": [
+        ["client", "b-answer"]
+    ]
+}
+```
+- `content` is set to a stringified JSON object `{name: <name of game>, about: <explanation>, website: <link>}`
+
+
 b-answer Profile
 ----
 ```json
