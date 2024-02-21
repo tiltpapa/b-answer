@@ -38,10 +38,26 @@ b-answer Profile
     "kind": 30078,
     "tags": [
         ["d", "banswer-profile"],
-        ["p", <Game Master id>]
+        ["p", <Game Master id>],
         // ...
     ]
 }
 ```
 - `content` is set to a stringified JSON object `{name: <username>, pronunciation: <pronunciation>}`
 - `p` tag, used to refer to participation history
+
+
+Draft Folder
+---
+```json
+{
+    "kind": 30078,
+    "tags": [
+        ["d", "banswer-folder/<folder name>"],
+        ["p", <Game Master id>],
+        ["e", <Draft Question id>],
+        // ...
+    ]
+}
+```
+
