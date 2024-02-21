@@ -28,7 +28,7 @@ This system treats `pubkey` as a game.
     ]
 }
 ```
-- `content` is set to a stringified JSON object `{name: <name of game>, about: <explanation>, website: <link>}`
+- `content` is set to a stringified JSON object `{name: <title of game>, about: <explanation>, website: <link>}`
 
 
 b-answer Profile
