@@ -61,3 +61,21 @@ Draft Folder
 }
 ```
 
+
+Timing Synchronization
+---
+### Start
+```json
+{
+    "kind": 78,
+    "tags": [
+        ["d", "banswer-timing"],
+        ["a", <Display Format event>],
+        ["p", <Game Master id>],
+        ["p", <b-answer Profile id>],
+        // ...
+    ]
+}
+```
+- `content` is set to a [Question](format.md#question) excluding `answer`
+- `b-answer Profile id`, only use when you want to show the right to answer.
