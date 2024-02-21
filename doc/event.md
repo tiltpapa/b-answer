@@ -79,3 +79,16 @@ Timing Synchronization
 ```
 - `content` is set to a [Question](format.md#question) excluding `answer`
 - `b-answer Profile id`, only use when you want to show the right to answer.
+
+### Seconds Left
+```json
+{
+    "kind": 20078,
+    "tags": [
+        ["d", "banswer-timing"],
+        ["p", <Game Master id>],
+        ["root", <Timing Synchronization(Start) id>]
+    ]
+}
+```
+- `content` is set to seconds left in the question
