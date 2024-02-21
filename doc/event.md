@@ -44,3 +44,4 @@ b-answer Profile
 }
 ```
 - `content` is set to a stringified JSON object `{name: <username>, pronunciation: <pronunciation>}`
+- `p` tag, used to refer to participation history
