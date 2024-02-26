@@ -18,9 +18,9 @@ Question
         },
         // ...
     ],
-    "answer": [<integer: 1 <= n => "total">, ...],
-    "total": <integer 1 or more>,
-    "required": <integer: 1 <= n => "total">
+    "answer": [<positive integer, n => "total">, ...],
+    "total": <integer, 1 or more>,
+    "required": <positive integer, n => "total">
 }
 ```
 - `answer` means correct answer number
