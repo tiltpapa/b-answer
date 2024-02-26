@@ -109,10 +109,7 @@ Answer Check
 ```json
 {
     "kind": 78,
-    "content": [
-        <positive integer>,
-        // ...
-    ]
+    "content": "[<positive integer>,...]",
     "tags": [
         ["d", "banswer-answer-check"],
         ["root", <Timing Synchronization(Start) id>]
