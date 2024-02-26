@@ -123,10 +123,10 @@ Answer
 ```json
 {
     "kind": 78,
-    "content": "<positive integer>",
     "tags": [
         ["d", "banswer-answer"],
         ["root", <Timing Synchronization(Start) id>]
     ]
 }
 ```
+- `content` is set to a stringified object `answer` from [Question](format.md#question)
