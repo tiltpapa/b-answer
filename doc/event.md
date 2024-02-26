@@ -18,8 +18,8 @@ Basically, it complies with [NIP-04](https://github.com/nostr-protocol/nips/blob
 
 Game Master Profile
 ----
-This system treats `pubkey` as a game.
-
+This system treats `pubkey` as a game.  
+bech32-formatted strings that can be used to display game IDs. The bech32 prefix is `bans`.
 ```json
 {
     "kind": 0,
