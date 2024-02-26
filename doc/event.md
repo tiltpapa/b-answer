@@ -72,7 +72,7 @@ Timing Synchronization
         ["d", "banswer-timing"],
         ["a", <Display Format event>],
         ["p", <Game Master id>],
-        ["p", <b-answer Profile id>],
+        ["p", <Player>],
         // ...
     ]
 }
