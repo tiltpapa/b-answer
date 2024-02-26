@@ -54,7 +54,7 @@ Draft Folder
     "kind": 30078,
     "tags": [
         ["d", "banswer-folder/<folder name>"],
-        ["p", <Game Master id>],
+        ["p", <Game Master pubkey>],
         ["e", <Draft Question id>],
         // ...
     ]
@@ -71,7 +71,6 @@ Timing Synchronization
     "tags": [
         ["d", "banswer-timing"],
         ["a", <Display Format event>],
-        ["p", <Game Master id>],
         ["p", <Player>],
         // ...
     ]
@@ -86,7 +85,6 @@ Timing Synchronization
     "kind": 20078,
     "tags": [
         ["d", "banswer-timing"],
-        ["p", <Game Master id>],
         ["root", <Timing Synchronization(Start) id>]
     ]
 }
