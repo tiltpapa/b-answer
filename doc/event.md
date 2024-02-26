@@ -71,13 +71,13 @@ Timing Synchronization
     "tags": [
         ["d", "banswer-timing"],
         ["a", <Display Format event>],
-        ["p", <Player>],
+        ["p", <Player pubkey>],
         // ...
     ]
 }
 ```
 - `content` is set to a [Question](format.md#question) excluding `answer`
-- `b-answer Profile id`, only use when you want to show the right to answer.
+- `Player pubkey`, only use when you want to show the right to answer.
 
 ### Seconds Left
 ```json
