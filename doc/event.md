@@ -116,3 +116,17 @@ Answer Check
     ]
 }
 ```
+
+
+Answer
+---
+```json
+{
+    "kind": 78,
+    "content": "<positive integer>",
+    "tags": [
+        ["d", "banswer-answer"],
+        ["root", <Timing Synchronization(Start) id>]
+    ]
+}
+```
