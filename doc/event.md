@@ -92,3 +92,15 @@ Timing Synchronization
 }
 ```
 - `content` is set to seconds left in the question
+
+### End
+```json
+{
+    "kind": 20078,
+    "content": "End",
+    "tags": [
+        ["d", "banswer-timing"],
+        ["root", <Timing Synchronization(Start) id>]
+    ]
+}
+```
