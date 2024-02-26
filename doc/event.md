@@ -94,7 +94,7 @@ Timing Synchronization
 ### End
 ```json
 {
-    "kind": 20078,
+    "kind": 78,
     "content": "End",
     "tags": [
         ["d", "banswer-timing"],
