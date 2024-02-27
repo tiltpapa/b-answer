@@ -62,14 +62,13 @@ Draft Folder
 ```
 
 
-Timing Synchronization
+Start
 ---
-### Start
 ```json
 {
     "kind": 78,
     "tags": [
-        ["d", "banswer-timing"],
+        ["d", "banswer-start"],
         ["a", <Display Format event>],
         ["p", <Player pubkey>],
         // ...
@@ -79,26 +78,30 @@ Timing Synchronization
 - `content` is set to a [Question](format.md#question) excluding `answer`
 - `Player pubkey`, only use when you want to show the right to answer.
 
-### Seconds Left
+
+Seconds Left
+---
 ```json
 {
     "kind": 20078,
     "tags": [
-        ["d", "banswer-timing"],
-        ["root", <Timing Synchronization(Start) id>]
+        ["d", "banswer-left"],
+        ["root", <Start id>]
     ]
 }
 ```
 - `content` is set to seconds left in the question
 
-### End
+
+End
+---
 ```json
 {
     "kind": 78,
     "content": "End",
     "tags": [
-        ["d", "banswer-timing"],
-        ["root", <Timing Synchronization(Start) id>]
+        ["d", "banswer-end"],
+        ["root", <Start id>]
     ]
 }
 ```
@@ -112,7 +115,7 @@ Answer Check
     "content": "[<positive integer>,...]",
     "tags": [
         ["d", "banswer-answer-check"],
-        ["root", <Timing Synchronization(Start) id>]
+        ["root", <Start id>]
     ]
 }
 ```
@@ -125,7 +128,7 @@ Answer
     "kind": 78,
     "tags": [
         ["d", "banswer-answer"],
-        ["root", <Timing Synchronization(Start) id>]
+        ["root", <Start id>]
     ]
 }
 ```
